@@ -10,6 +10,8 @@ The most common and important components of web development markup languages are
 
 **3. Document Structure:** These tags, like `<DOCTYPE`, `<head>` & `<body>` are used to distinguish the sctructure of a HTML file. They each have there own designated reason. For example, everything in the `<body>` tag is main and VISABLE content, whereas, everything in the `<head>` tag is used for metadata and therefore is NOT VISABLE.
 
+---
+
 ## Q2:	**Define** the features of the following technologies that are essential in terms of the development of the internet:
  - packets
  - IP addresses (IPv4 and IPv6)
@@ -33,6 +35,8 @@ A router is a device that allows computers to connect computer to computer to ma
 ### Domains and DNS: 
 
 A domain is a readable version of an IP Address or a group of them. It's a much easier way of finding them, for example instead of `142.250.189.174` you can use `https://google.com` both will take you to the google search engine page, but one is definately easier to remember and type. A DNS or Domain Name System, on the other hand is the most common way to translate those readable domains into the original IP Addresses, allowing the computer to locate and connect with eachother.
+
+---
 
 ## Q3:	**Define** the features of the following technologies that are essential in terms of the development of the internet:
  - TCP
@@ -69,6 +73,8 @@ Web browsers are software applications for recieving, presenting and navigating 
 
 **- Request Methods:** Browsers can use different methods to achieve this. Methods like `GET`, `POST`, `PUT` & `DELETE` can be used to control the flow of data from the server.
 
+---
+
 ## Q4:	**Identify** THREE data structures used in the Python programming language and **explain** the reasons for using each.
 
 In python there are many different in-built structures that play pretty inportant roles. Here are 3 examples of those:
@@ -78,6 +84,8 @@ In python there are many different in-built structures that play pretty inportan
 **2. Sets** Sets are used to create an unordered collection or data. These are perfect and eliminating duplicate entries and support set mathematical operations such as union, intersection and difference.
 
 **3. Lists** Lists are used to create an ordered collection or data and are extremely customisible, hence why they are one of the most commonly used structures. If you need to, you can add, remove, edit during the programs execution.
+
+---
 
 ## Q5:	**Describe** the features of interpreters and compilers and how they are different.
 
@@ -96,6 +104,8 @@ A compiler is a language processor used to translate all your source code into a
 **- Optimisation:** Most compilers will have a hand in the optimisation of the code you created. This allows it to run smoother on any device.
 
 **- Program Distribution:** A compiler allows you to realse a useable version of your code for most devices.
+
+---
 
 ## Q6:	**Identify** TWO commonly used programming languages and **explain** the benefits and drawbacks of each.
 ### Python:
@@ -128,6 +138,8 @@ A compiler is a language processor used to translate all your source code into a
 
 **- Verbose Syntax:** C++ code can be more verbose than some other language, for example Python. It may take more lines of code to achieve certain objectives.
 
+---
+
 ## Q7: **Identify** TWO ethical issues from the areas below and **discuss** the extent to which an IT professional is ethically responsible in terms of the issue.
 
 List of topics containing ethical issues:
@@ -145,6 +157,8 @@ List of topics containing ethical issues:
 > Conduct **research** into a case study of **ONE** of the ethical issues you have chosen **discuss** how an ethical IT
 > professional should respond to the case study and how they might mitigate or prevent ethical breaches. (Word count 
 > guide: 400 - 600 words)
+
+---
 
 ## Q8: Explain control flow, using examples from the Python programming language
 Control flow refers to the order in which individual statements, instructions or functions are executed. In a Python programs the control flow is governed by the execution of statements, loops and function calls.
@@ -183,6 +197,8 @@ for i in range(1, 5):
         print(n, 'is a prime number')
 ```
 
+---
+
 ## Q9: Explain the difference between type coercion and type conversion. Are either of these used in Python?
 The main difference between type coercion and type conversion is that type coercion is always implicit, whereas type type converion can be either implicit or explicit. This basicaaly means that type conversion refers to the general process of changing a type and coercion is to the implied conversion of a type. Now does Python use these methods? No Python doesn't have coercion but of course it has conversion of data types. An example of this is change a int into a string in Python:
 ```
@@ -190,6 +206,8 @@ x = int(input("Enter a number to turn into a string: ))
 
 x = string(x)
 ```
+
+---
 
 ## Q10: Explain data types, using examples:
 A data type is a term used in computer science to refer to a grouping of data, usually with a predicted outcome. For an example is an integer, which refers to all whole number related data. Now in Python we have Text, Numeric, Sequence, Mapping, Boolean, Binary & None types of data. Here is am example of each:
@@ -272,9 +290,13 @@ x = memoryview(bytes(5))
 x = none
 ```
 
+---
+
 ## Q11:	Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
  - Identify the classes you would use to solve the problem
  - Write a short explanation of why you would use the classes you have identified
+
+---
 
 ## Q12:	Identify and explain the error in the code snippet below that is preventing correct execution of the program
 ![Question 12 code snippet](./imgs/q12.png)
@@ -287,6 +309,8 @@ fahrenheit = (celsius * 9 / 5) + 32
 
 print(f"The result is: {fahrenheit}.")
 ```
+
+---
 
 ## Q13:	The code snippet below looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
 ![Question 13 code snippet](./imgs/q13.png)
@@ -305,6 +329,8 @@ if i < len(numbers) - 1:
 
 print(numbers)
 ```
+
+---
 
 ## Q14: Demonstrate your algorithmic thinking through completing the following two tasks, in order:
  1. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations
@@ -327,6 +353,8 @@ End
 
  ```
 
+---
+
 ## Q15:	Write pseudocode OR Python code for the following problem:
 *You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”*.
 ```
@@ -346,6 +374,8 @@ else:
 
 ```
 
+---
+
 ## Q16:	ACME Corporation are hiring a new junior developer, as part of their hiring criteria they've created a "coding skill score" based on the specific competencies they require for this role; the more important the skill is for ACME corp, the more points it contributes to the "coding skill score" The skills are weighted as follows:
 - Python (1)
 - Ruby (2)
@@ -361,8 +391,8 @@ else:
 - a)Their overall "coding skill score" 
 - b) Skills they may want to learn, and how much each one would improve their score
 
-
 ---
+
 # References:
 - Varagouli, E. (2021). What Each Markup Language Is Used For. [online] Semrush Blog. Available at: https://www.semrush.com/blog/markup-language/.
 - ThoughtCo. (n.d.). What Are Markup Languages? [online] Available at: https://www.thoughtco.com/what-are-markup-languages-3468655.
