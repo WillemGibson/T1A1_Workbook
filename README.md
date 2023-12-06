@@ -296,6 +296,18 @@ x = none
  - Identify the classes you would use to solve the problem
  - Write a short explanation of why you would use the classes you have identified
 
+Using the following classes:
+
+- ```Menu class:``` This class will be used to represent the food items offered at the restruant. It would include properties like name, price, ingredients and the method to create it. And include a method to display the food.
+
+- ```Order class:``` This class will be used to represent an order that has been placed by a customer. It would include properties like the customer's name, ordered food, and the cost. It would also have methods to add and remove food items from the order and calculate their total cost.
+
+- ```Customer class:``` This class will be used to represent a customer visiting the restaurant. It would include properties such as the customer's name and contact information and have methods to place an order and view their order history.
+
+- ```Restaurant class:``` This class will be used to represent the restaurant. It would include properties such as a menu of food items and a list of orders. It also has methods to display the menu, take orders and handle payments.
+
+I used these groups of classes as the easiest way to manage everything required to do by the quitting staff. The ```Menu``` class is used to display and manage all the food items for both the restraunt and the customers. The ```Order``` class is used as a way for the restraunt to complete, manage and edit orders that come in from customers. The ```Customer``` class is used to help the management of waiting tables and payment processing for the business, and is used to make sure the customers get what they ordered. The ```Restaurant``` class is used to tied everything together and make sure everything flows correctly.
+
 ---
 
 ## Q12:	Identify and explain the error in the code snippet below that is preventing correct execution of the program
