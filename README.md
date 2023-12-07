@@ -158,6 +158,38 @@ List of topics containing ethical issues:
 > professional should respond to the case study and how they might mitigate or prevent ethical breaches. (Word count 
 > guide: 400 - 600 words)
 
+### Ethical issue #1:
+A common eethical issue in software development is the issue with accessing user's personal data, when needed of course. The main issue with this is that you may not have the user's permission to do this, which can lead to alot of ethical and legal issues. Another issue is that one user may have different prefferences for their private data than others and this complexity is what us developers have to conform to. A great way around this is a privacy policy. A policy allows you to have, in writing, exactly how and what the user's person data will be used for and can be used as a signed form of consent in court. 
+
+### Ethical issue #2:
+Another very common ethical issue, espically for social media platforms is the ethical issues of freedom of speak. Freedom of speech is the idea that anyone can say anything wihtout punishment in the effort of free thought. Whether you agree with this belief or not, it is something a software engineer needs to keep in mind while creating a personal sharing platform such as a social media platform. To protect yourself from your user's comments on your platform in America the first amendment does protect platforms, whereas in australia we have no form right to freedom of speech.
+
+### Case Study:
+**Case Study: Ethics and freedom of speech in the platform X**.
+
+**Background:**
+As a widely used social media platform X (formally known as twitter), it has the reputation of giving all users a chance of free speech. Millions of users everyday, it is now one of the biggesy players in social media world, linking people around the world. Despite this fact, the platform has been experiencing many ethical issues regarding freedom of speech that have tested the limits of its commitment to freedom of speech and openness/inclusion.
+
+**Issue 1: Moderation Policies and Content Removal:**
+X also tries to balance between the freedom of speech and creating an orderly and civil environment. This raises serious concerns in the ethics involved in content deletion, which is part of the current moderation policy intended to prohibit hate speech and harassment. The line is so thin for many people arguing that the platform’s algorithms may unintentionally squash free speech.
+
+**Legal Perspective:**
+Acceptable behaviors are defined through community guidelines and the terms of services agreements. These complaints are typically issues with the existing stature on anti-discrimination and hate speech at the local level. However, the problem comes in when such rules are implemented on different social and political platforms that might introduce some form of bias in content moderation.
+
+**Ethical Responsibility:**
+First, it should strike a balance between upholding freedom of speech and safeguarding its users from harm when it comes to platform X. Trust building through transparent practices of content moderation, clear communication with users on the reasons for deletion of certain content as well as regular updates to moderation algorithms are necessary measures for conducting ethical practices.
+
+**Issue 2: Amplification of Misinformation:**
+The threat to freedom of speech on X comes in the form of spreading false information and information that was intentionally distorted. Sometimes, the platform’s algorithm driven content recommender feeds on lies and helps in further propagating false narratives. It raises ethical concerns that can affect public opinion, promote social division, and threaten democratic debate.
+
+**Legal Perspective:**
+Although law does not necessarily target the distribution of fake news through electronic systems, there are more calls to regulate the role of the digital platform as a host of information disseminated. Some countries have proposed such laws as a strategy of eliminating the spread of fake news on online platforms.
+
+**Ethical Responsibility:**
+Therefore, X should tackle the issue of ethics concerning misinformation directly. The government should promote fact-checking and work on scaling up the algorithms for less misinformation, as well as cooperate with devlelopers to come up with accurate approaches.
+
+To conclude, the situatiuon with the platform X trying to balance the fine line between freedom speech and protection of its users illustrates a prime example of the ethical & legal issues of freedom of speech on online platforms.
+
 ---
 
 ## Q8: Explain control flow, using examples from the Python programming language
@@ -348,6 +380,7 @@ print(numbers)
  1. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations
  2. Write pseudocode for the process outlined in your flowchart
  ![Flowchart](./imgs/q14.png)
+
  ```
 Start
 
@@ -403,6 +436,48 @@ else:
 - a)Their overall "coding skill score" 
 - b) Skills they may want to learn, and how much each one would improve their score
 
+```
+# Define the skill weights
+skill_weights = {
+    'Python': 1,
+    'Ruby': 2,
+    'Bash': 4,
+    'Git': 8,
+    'HTML': 16,
+    'TDD': 32,
+    'CSS': 64,
+    'JavaScript': 128
+}
+
+def calculate_skill_score(user_skills):
+    total_score = sum(skill_weights.get(skill, 0) for skill in user_skills)
+    return total_score
+
+def suggest_skills(current_skills):
+    missing_skills = [skill for skill in skill_weights if skill not in current_skills]
+    suggestions = {skill: skill_weights[skill] for skill in missing_skills}
+    return suggestions
+
+def main():
+    # Get user input for skills
+    user_skills = input("Enter your skills, separated by commas (e.g., Python,HTML,JavaScript): ").split(',')
+
+    # Calculate overall coding skill score
+    overall_score = calculate_skill_score(user_skills)
+    print(f"\nYour overall coding skill score is: {overall_score}")
+
+    # Suggest skills to improve the score
+    suggestions = suggest_skills(user_skills)
+    if suggestions:
+        print("\nSkills you may want to learn:")
+        for skill, weight in suggestions.items():
+            print(f"{skill}: {weight} points")
+
+if __name__ == "__main__":
+    main()
+
+```
+
 ---
 
 # References:
@@ -431,4 +506,6 @@ else:
 - www.stevefenton.co.uk. (n.d.). Type Coercion vs Type Conversion. [online] Available at: https://www.stevefenton.co.uk/blog/2021/08/type-coercion-vs-type-conversion/.
 - Wikipedia Contributors (2019). Data type. [online] Wikipedia. Available at: https://en.wikipedia.org/wiki/Data_type.
 - W3schools (n.d.). Python Data Types. [online] www.w3schools.com. Available at: https://www.w3schools.com/python/python_datatypes.asp.
-‌- 
+‌- https://digitalprivacy.ieee.org/publications/topics/ethical-issues-related-to-data-privacy-and-security-why-we-must-balance-ethical-and-legal-requirements-in-the-connected-world#:~:text=Ethical%20Challenges&text=You%20might%20not%20know%20the,same%20as%20another%20individual%27s%20wishes.
+- https://ethics.org.au/ethics-explainer-freedom-of-speech/
+- https://blog.twitter.com/en_us/topics/company/2023/stand-with-x-to-protect-free-speech#:~:text=Despite%20our%20clear%20and%20consistent,those%20of%20their%20financial%20supporters.
