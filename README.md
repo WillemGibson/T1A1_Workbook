@@ -506,6 +506,6 @@ if __name__ == "__main__":
 - www.stevefenton.co.uk. (n.d.). Type Coercion vs Type Conversion. [online] Available at: https://www.stevefenton.co.uk/blog/2021/08/type-coercion-vs-type-conversion/.
 - Wikipedia Contributors (2019). Data type. [online] Wikipedia. Available at: https://en.wikipedia.org/wiki/Data_type.
 - W3schools (n.d.). Python Data Types. [online] www.w3schools.com. Available at: https://www.w3schools.com/python/python_datatypes.asp.
-‌- https://digitalprivacy.ieee.org/publications/topics/ethical-issues-related-to-data-privacy-and-security-why-we-must-balance-ethical-and-legal-requirements-in-the-connected-world#:~:text=Ethical%20Challenges&text=You%20might%20not%20know%20the,same%20as%20another%20individual%27s%20wishes.
-- https://ethics.org.au/ethics-explainer-freedom-of-speech/
-- https://blog.twitter.com/en_us/topics/company/2023/stand-with-x-to-protect-free-speech#:~:text=Despite%20our%20clear%20and%20consistent,those%20of%20their%20financial%20supporters.
+‌- digitalprivacy.ieee.org. (n.d.). Ethical Issues Related to Data Privacy and Security: Why We Must Balance Ethical and Legal Requirements in the Connected World - IEEE Digital Privacy. [online] Available at: https://digitalprivacy.ieee.org/publications/topics/ethical-issues-related-to-data-privacy-and-security-why-we-must-balance-ethical-and-legal-requirements-in-the-connected-world#:~:text=Ethical%20Challenges&text=You%20might%20not%20know%20the.
+- The Ethics Centre (2019). Ethics Explainer: Freedom of Speech - The Ethics Centre. [online] THE ETHICS CENTRE. Available at: https://ethics.org.au/ethics-explainer-freedom-of-speech/.
+- blog.twitter.com. (n.d.). Stand with X to protect free speech. [online] Available at: https://blog.twitter.com/en_us/topics/company/2023/stand-with-x-to-protect-free-speech#:~:text=Despite%20our%20clear%20and%20consistent [Accessed 7 Dec. 2023].
